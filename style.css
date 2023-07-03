@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .films-menu {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .film-details {
+    flex: 2;
+  }
+  
+  h2, h3 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  li.film {
+    font-weight: bold;
+  }
+  
+  li.sold-out {
+    color: red;
+    font-weight: bold;
+  }
+  
+  #film-details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #buy-ticket-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #film-details-content {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #film-poster {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  #film-info {
+    line-height: 1.5;
+  }
+  
+  #film-availability {
+    font-weight: bold;
+  }
+  #films{
+    line-height: 30px;
+  }

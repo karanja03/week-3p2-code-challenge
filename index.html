@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Theater</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="films-menu">
+      <h2>Movies</h2>
+      <ul id="films"></ul>
+    </div>
+    <div class="film-details">
+      <div id="film-details-header">
+        <h2>Movie Details</h2>
+        <button id="buy-ticket-btn" disabled>Buy Ticket</button>
+      </div>
+      <div id="film-details-content">
+        <img id="film-poster" src="" alt="Film Poster">
+        <div id="film-info">
+          <h3 id="film-title"></h3>
+          <p id="film-runtime"></p>
+          <p id="film-showtime"></p>
+          <p id="film-description"></p>
+          <p id="film-availability"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
