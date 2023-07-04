@@ -1,4 +1,4 @@
-                      Flariton Movie Ticket Booking System
+   #                   Flariton Movie Ticket Booking System
 This is a movie ticket booking system for Flariton movie theatre, allowing users to view available movies, check showtimes, and book tickets online.
 
 #              System Requirements
