@@ -13,8 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function createFilmItem(film) {
       const li = document.createElement("li");
       li.textContent = film.title;
-      //adding two class names on the element
-      li.classList.add("film", "item");
+     li.classList.add("film", "item");
       li.addEventListener("click", () => {
         updateFilmDetails(film);
       });
@@ -47,12 +46,14 @@ document.addEventListener("DOMContentLoaded", () => {
         for(const film of data) {
           const filmItem = createFilmItem(film);
           filmsList.appendChild(filmItem);
-        }});
-  
-        // Display details for the first film
-        const firstFilm = data.films[0];
+        }
+        const firstFilm = data[0];
         updateFilmDetails(firstFilm);
       });
+  
+        // Display details for the first film
+        
+      
   
     // Handle buy ticket button click
     const buyTicketBtn = document.getElementById("buy-ticket-btn");
@@ -67,5 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
         filmsList.firstElementChild.classList.add("sold-out");
       }
     });
+  })
   
 
